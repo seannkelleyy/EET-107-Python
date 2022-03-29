@@ -1,0 +1,32 @@
+#Sean Kelley Chapter 2 Lab 1 16 June 2021
+
+import turtle
+
+franklin = turtle.Turtle()
+franklin.color('red')
+franklin.pensize(5)
+franklin.shape('turtle')
+franklin.speed(1)
+
+franklin.forward(100)
+franklin.left(90)
+franklin.forward(100)
+franklin.left(90)
+franklin.forward(100)
+franklin.right(90)
+franklin.forward(100)
+franklin.right(90)
+franklin.forward(100)
+franklin.penup()
+franklin.forward(100)
+franklin.pendown()
+franklin.color('blue')
+franklin.right(90)
+franklin.forward(200)
+franklin.backward(100)
+franklin.left(45)
+franklin.forward(133)
+franklin.backward(133)
+franklin.left(90)
+franklin.forward(125)
+turtle.Screen().exitonclick()
